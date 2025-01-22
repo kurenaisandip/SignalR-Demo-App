@@ -34,3 +34,4 @@ C:\Users\ACER\source\repos\SignalRAPI\SignalRAPI\obj\Debug\net8.0\refint\SignalR
 C:\Users\ACER\source\repos\SignalRAPI\SignalRAPI\obj\Debug\net8.0\SignalRAPI.pdb
 C:\Users\ACER\source\repos\SignalRAPI\SignalRAPI\obj\Debug\net8.0\SignalRAPI.genruntimeconfig.cache
 C:\Users\ACER\source\repos\SignalRAPI\SignalRAPI\obj\Debug\net8.0\ref\SignalRAPI.dll
+C:\Users\ACER\source\repos\SignalRAPI\SignalRAPI\obj\Debug\net8.0\SignalRAPI.sourcelink.json

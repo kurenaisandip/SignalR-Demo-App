@@ -1073,6 +1073,7 @@ C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\7j9
 C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\nxcu4eiy4n-qw5dygib3t.gz
 C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\02qpnqt1e9-liprrkmcjc.gz
 C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\ik2t7iyrk0-ej2cvtlebs.gz
-C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\mpnezo3ggr-63vc44nvyj.gz
-C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\kyjy2iuvp1-qy5bqcnp26.gz
-C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\5jzqasczcu-y0oxme9rnq.gz
+C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\BlazorApp1.sourcelink.json
+C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\mpnezo3ggr-dzgfeqjn4l.gz
+C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\kyjy2iuvp1-oiuc1c6982.gz
+C:\Users\ACER\source\repos\SignalRAPI\BlazorApp1\obj\Debug\net8.0\compressed\5jzqasczcu-kbqgt9cw7j.gz

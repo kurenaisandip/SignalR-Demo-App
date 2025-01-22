@@ -15,21 +15,38 @@
 
 
 @code {
-    private  HubConnection? _hubConnection;
+    private HubConnection? _hubConnection;
     private readonly List<string> _messages = new();
+    private string _userId = "desktop"; 
 
-    protected override async void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        _hubConnection = new HubConnectionBuilder().WithUrl(" http://localhost:5221/notifications").Build();
-
+        _hubConnection = new HubConnectionBuilder()
+            .WithUrl("http://localhost:5221/notifications")
+            .WithAutomaticReconnect()
+            .Build();
+        
         _hubConnection.On<string>("ReceiveNotification", message =>
         {
             _messages.Add(message);
-
-            InvokeAsync(StateHasChanged);
+            InvokeAsync(StateHasChanged); 
         });
 
-        await _hubConnection.StartAsync();
+        try
+        {
+            await _hubConnection.StartAsync();
+            Console.WriteLine("Connected to SignalR Hub");
+            
+            if (!string.IsNullOrEmpty(_userId))
+            {
+                await _hubConnection.InvokeAsync("RegisterUserId", _userId);
+                Console.WriteLine($"User ID {_userId} registered!");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error connecting to SignalR Hub: {ex.Message}");
+        }
     }
 
     public async ValueTask DisposeAsync()
@@ -39,5 +56,4 @@
             await _hubConnection.DisposeAsync();
         }
     }
-
 }
