@@ -6,32 +6,37 @@ namespace SignalRAPI
     {
         public override async Task OnConnectedAsync()
         {
-            // Send a welcome message to the connected client
-            await Clients.Client(Context.ConnectionId).ReceiveNotification($"Welcome to the Notification Hub, {Context.User?.Identity?.Name}");
+            await Clients.Caller.ReceiveNotification($"Welcome to the Notification Hub, {Context.ConnectionId}");
             Console.WriteLine($"Client connected with connection ID: {Context.ConnectionId}");
             await base.OnConnectedAsync();
         }
 
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
-            // Unregister the user when they disconnect
-            ServerTimeNotifier.UnregisterUser(Context.ConnectionId);
             Console.WriteLine($"Client disconnected with connection ID: {Context.ConnectionId}");
             await base.OnDisconnectedAsync(exception);
         }
 
-        // Register the user ID with their connection ID
-        public Task RegisterUserId(string userId)
+        public async Task RegisterClient(string clientType)
         {
-            ServerTimeNotifier.RegisterUser(userId, Context.ConnectionId);
-            return Task.CompletedTask;
+            // Register the client with their connection ID
+            ServerTimeNotifier.RegisterClient(Context.ConnectionId, clientType);
+
+            string responseMessage = clientType.ToLower() switch
+            {
+                "desktop" => $"Time for desktop: {DateTimeOffset.Now}",
+                "web" => $"Time for web: {DateTimeOffset.Now}",
+                _ => "Unknown client type."
+            };
+
+            // Send the response back to the caller
+            await Clients.Caller.ReceiveNotification(responseMessage);
+            Console.WriteLine($"Response sent to {clientType} client: {responseMessage}");
         }
     }
 
-    // Client interface for strongly-typed hubs
     public interface INotificationClient
     {
         Task ReceiveNotification(string message);
     }
-
 }

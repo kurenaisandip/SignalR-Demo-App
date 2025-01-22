@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2IrmNJUHSqCQ8RixAzCd4EKsSt+vyNCCBBzXgBgi7II=",
+  "Hash": "3Xv4CL4+SCTuGHKbHWXaPZWfxzQRoG4MF101JWYJz94=",
   "Source": "BlazorApp1",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "kbqgt9cw7j",
-      "Integrity": "QKqy3C0Moi8ra/YKZ8FaKYpoMoY2UciC8KvTpG5iTsU=",
+      "Fingerprint": "a57chrs8t0",
+      "Integrity": "LmxwOtivxmscSN9c9ClReMTeDEFtt5gVxmt79rntH9Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "oiuc1c6982",
-      "Integrity": "gBaNmUwhHmYgfDcWH+w3fSinl7Qdd+1k4F/HnsaZqHc=",
+      "Fingerprint": "tixuti4o9m",
+      "Integrity": "NQpAZeZCTu8i6CtaxGmepkkr9VLjivbNYA9vwBk/WmA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\BlazorApp1.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "dzgfeqjn4l",
-      "Integrity": "R5ZLgin7RwTpHoP3IHgS4LN3LdoenB7OPtuB7TrUzmk=",
+      "Fingerprint": "7tkj5aiump",
+      "Integrity": "Gx2NU6/U4yBEwUJgKjz80lpoCmEod5CrBENQMUDvxCE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\webcil\\BlazorApp1.wasm"
@@ -5204,7 +5204,7 @@
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm"
     },
     {
-      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-kbqgt9cw7j.gz",
+      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-a57chrs8t0.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\",
@@ -5218,8 +5218,8 @@
       "RelatedAsset": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "spqhhrud57",
-      "Integrity": "gL6dxDU5PUtTLw1VmdENpVCEqnaoRBE7hmz1aHT6nog=",
+      "Fingerprint": "v70v9by4qb",
+      "Integrity": "2+dQwkmKLxN0kP6cGf3AQqSdMmoqKVemVEDNWXZpjQk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7199,7 +7199,7 @@
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm"
     },
     {
-      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-oiuc1c6982.gz",
+      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-tixuti4o9m.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\",
@@ -7213,8 +7213,8 @@
       "RelatedAsset": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorApp1.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "u45sbeqx6x",
-      "Integrity": "AjRVirAR2xKGQFx/OOznwM9s28JtBTZAfQodD4I/VzI=",
+      "Fingerprint": "s56jjjg72n",
+      "Integrity": "EHuu6pLo6Uy8AsF6pRvl59AikjDHeib6mS7jwZL+M3o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorApp1.pdb"
@@ -7514,7 +7514,7 @@
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm"
     },
     {
-      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-dzgfeqjn4l.gz",
+      "Identity": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-7tkj5aiump.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\",
@@ -7528,8 +7528,8 @@
       "RelatedAsset": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorApp1.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wyp9emb9ra",
-      "Integrity": "SD4/E7zWIGfa+aWWO1OoN5iofNiWlaeiC+VYnw36D2U=",
+      "Fingerprint": "2x3inxhmnz",
+      "Integrity": "qvBpv1G5pvHY2VbY7iez4CeDvf6a3v3ci42GtNBM8qc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorApp1.wasm"
@@ -9172,11 +9172,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QKqy3C0Moi8ra/YKZ8FaKYpoMoY2UciC8KvTpG5iTsU=\""
+          "Value": "\"LmxwOtivxmscSN9c9ClReMTeDEFtt5gVxmt79rntH9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:11:13 GMT"
+          "Value": "Wed, 22 Jan 2025 03:40:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9186,18 +9186,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QKqy3C0Moi8ra/YKZ8FaKYpoMoY2UciC8KvTpG5iTsU="
+          "Value": "sha256-LmxwOtivxmscSN9c9ClReMTeDEFtt5gVxmt79rntH9Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-kbqgt9cw7j.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-a57chrs8t0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000110852455"
+          "Quality": "0.000110889332"
         }
       ],
       "ResponseHeaders": [
@@ -9207,15 +9207,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9020"
+          "Value": "9017"
         },
         {
           "Name": "ETag",
-          "Value": "\"gL6dxDU5PUtTLw1VmdENpVCEqnaoRBE7hmz1aHT6nog=\""
+          "Value": "\"2+dQwkmKLxN0kP6cGf3AQqSdMmoqKVemVEDNWXZpjQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:05 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9235,19 +9235,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QKqy3C0Moi8ra/YKZ8FaKYpoMoY2UciC8KvTpG5iTsU=\""
+          "Value": "W/\"LmxwOtivxmscSN9c9ClReMTeDEFtt5gVxmt79rntH9Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QKqy3C0Moi8ra/YKZ8FaKYpoMoY2UciC8KvTpG5iTsU="
+          "Value": "sha256-LmxwOtivxmscSN9c9ClReMTeDEFtt5gVxmt79rntH9Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-kbqgt9cw7j.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\5jzqasczcu-a57chrs8t0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9256,7 +9256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9020"
+          "Value": "9017"
         },
         {
           "Name": "Content-Type",
@@ -9264,11 +9264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gL6dxDU5PUtTLw1VmdENpVCEqnaoRBE7hmz1aHT6nog=\""
+          "Value": "\"2+dQwkmKLxN0kP6cGf3AQqSdMmoqKVemVEDNWXZpjQk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:05 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9286,7 +9286,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gL6dxDU5PUtTLw1VmdENpVCEqnaoRBE7hmz1aHT6nog="
+          "Value": "sha256-2+dQwkmKLxN0kP6cGf3AQqSdMmoqKVemVEDNWXZpjQk="
         }
       ]
     },
@@ -9438,7 +9438,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25148"
+          "Value": "25012"
         },
         {
           "Name": "Content-Type",
@@ -9446,11 +9446,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gBaNmUwhHmYgfDcWH+w3fSinl7Qdd+1k4F/HnsaZqHc=\""
+          "Value": "\"NQpAZeZCTu8i6CtaxGmepkkr9VLjivbNYA9vwBk/WmA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:11:12 GMT"
+          "Value": "Wed, 22 Jan 2025 03:40:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9460,18 +9460,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gBaNmUwhHmYgfDcWH+w3fSinl7Qdd+1k4F/HnsaZqHc="
+          "Value": "sha256-NQpAZeZCTu8i6CtaxGmepkkr9VLjivbNYA9vwBk/WmA="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.pdb",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-oiuc1c6982.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-tixuti4o9m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000055193730"
+          "Quality": "0.000055580258"
         }
       ],
       "ResponseHeaders": [
@@ -9481,15 +9481,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18117"
+          "Value": "17991"
         },
         {
           "Name": "ETag",
-          "Value": "\"AjRVirAR2xKGQFx/OOznwM9s28JtBTZAfQodD4I/VzI=\""
+          "Value": "\"EHuu6pLo6Uy8AsF6pRvl59AikjDHeib6mS7jwZL+M3o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:04 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9509,19 +9509,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gBaNmUwhHmYgfDcWH+w3fSinl7Qdd+1k4F/HnsaZqHc=\""
+          "Value": "W/\"NQpAZeZCTu8i6CtaxGmepkkr9VLjivbNYA9vwBk/WmA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gBaNmUwhHmYgfDcWH+w3fSinl7Qdd+1k4F/HnsaZqHc="
+          "Value": "sha256-NQpAZeZCTu8i6CtaxGmepkkr9VLjivbNYA9vwBk/WmA="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.pdb.gz",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-oiuc1c6982.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\kyjy2iuvp1-tixuti4o9m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9530,7 +9530,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18117"
+          "Value": "17991"
         },
         {
           "Name": "Content-Type",
@@ -9538,11 +9538,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AjRVirAR2xKGQFx/OOznwM9s28JtBTZAfQodD4I/VzI=\""
+          "Value": "\"EHuu6pLo6Uy8AsF6pRvl59AikjDHeib6mS7jwZL+M3o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:04 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9560,7 +9560,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AjRVirAR2xKGQFx/OOznwM9s28JtBTZAfQodD4I/VzI="
+          "Value": "sha256-EHuu6pLo6Uy8AsF6pRvl59AikjDHeib6mS7jwZL+M3o="
         }
       ]
     },
@@ -9575,7 +9575,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20757"
+          "Value": "20245"
         },
         {
           "Name": "Content-Type",
@@ -9583,11 +9583,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R5ZLgin7RwTpHoP3IHgS4LN3LdoenB7OPtuB7TrUzmk=\""
+          "Value": "\"Gx2NU6/U4yBEwUJgKjz80lpoCmEod5CrBENQMUDvxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:11:12 GMT"
+          "Value": "Wed, 22 Jan 2025 03:40:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9597,18 +9597,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R5ZLgin7RwTpHoP3IHgS4LN3LdoenB7OPtuB7TrUzmk="
+          "Value": "sha256-Gx2NU6/U4yBEwUJgKjz80lpoCmEod5CrBENQMUDvxCE="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.wasm",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-dzgfeqjn4l.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-7tkj5aiump.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000108766587"
+          "Quality": "0.000110975474"
         }
       ],
       "ResponseHeaders": [
@@ -9618,15 +9618,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9193"
+          "Value": "9010"
         },
         {
           "Name": "ETag",
-          "Value": "\"SD4/E7zWIGfa+aWWO1OoN5iofNiWlaeiC+VYnw36D2U=\""
+          "Value": "\"qvBpv1G5pvHY2VbY7iez4CeDvf6a3v3ci42GtNBM8qc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:04 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9646,19 +9646,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"R5ZLgin7RwTpHoP3IHgS4LN3LdoenB7OPtuB7TrUzmk=\""
+          "Value": "W/\"Gx2NU6/U4yBEwUJgKjz80lpoCmEod5CrBENQMUDvxCE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R5ZLgin7RwTpHoP3IHgS4LN3LdoenB7OPtuB7TrUzmk="
+          "Value": "sha256-Gx2NU6/U4yBEwUJgKjz80lpoCmEod5CrBENQMUDvxCE="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.wasm.gz",
-      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-dzgfeqjn4l.gz",
+      "AssetFile": "C:\\Users\\ACER\\source\\repos\\SignalRAPI\\BlazorApp1\\obj\\Debug\\net8.0\\compressed\\mpnezo3ggr-7tkj5aiump.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9667,7 +9667,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9193"
+          "Value": "9010"
         },
         {
           "Name": "Content-Type",
@@ -9675,11 +9675,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SD4/E7zWIGfa+aWWO1OoN5iofNiWlaeiC+VYnw36D2U=\""
+          "Value": "\"qvBpv1G5pvHY2VbY7iez4CeDvf6a3v3ci42GtNBM8qc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 12:02:04 GMT"
+          "Value": "Wed, 22 Jan 2025 03:38:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9697,7 +9697,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SD4/E7zWIGfa+aWWO1OoN5iofNiWlaeiC+VYnw36D2U="
+          "Value": "sha256-qvBpv1G5pvHY2VbY7iez4CeDvf6a3v3ci42GtNBM8qc="
         }
       ]
     },

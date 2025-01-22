@@ -1,13 +1,14 @@
 ﻿@page "/counter"
 @using Microsoft.AspNetCore.SignalR.Client
 @implements IAsyncDisposable
+@inject NavigationManager NavigationManager
 
 <PageTitle>Notification</PageTitle>
 
 <h1>Here are the messages from the server</h1>
 
 <ul>
-    @foreach(var message in _messages)
+    @foreach(var message in messages)
     {
         <li>@message</li>
     }
@@ -15,43 +16,29 @@
 
 
 @code {
-    private HubConnection? _hubConnection;
-    private readonly List<string> _messages = new();
-    private string _userId = "desktop"; 
+    private HubConnection _hubConnection;
+    private List<string> messages = new();
 
     protected override async Task OnInitializedAsync()
     {
+        // Use the injected NavigationManager instance to get the absolute URL
         _hubConnection = new HubConnectionBuilder()
-            .WithUrl("http://localhost:5221/notifications")
-            .WithAutomaticReconnect()
+            .WithUrl(NavigationManager.ToAbsoluteUri(" http://localhost:5221/notifications")) // Use the instance method
             .Build();
-        
-        _hubConnection.On<string>("ReceiveNotification", message =>
+
+        _hubConnection.On<string>("ReceiveNotification", (message) =>
         {
-            _messages.Add(message);
-            InvokeAsync(StateHasChanged); 
+            messages.Add(message);
+            InvokeAsync(StateHasChanged); // Trigger a re-render
         });
 
-        try
-        {
-            await _hubConnection.StartAsync();
-            Console.WriteLine("Connected to SignalR Hub");
-            
-            if (!string.IsNullOrEmpty(_userId))
-            {
-                await _hubConnection.InvokeAsync("RegisterUserId", _userId);
-                Console.WriteLine($"User ID {_userId} registered!");
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error connecting to SignalR Hub: {ex.Message}");
-        }
+        await _hubConnection.StartAsync();
+        await _hubConnection.InvokeAsync("RegisterClient", "web");
     }
 
     public async ValueTask DisposeAsync()
     {
-        if (_hubConnection is not null)
+        if (_hubConnection != null)
         {
             await _hubConnection.DisposeAsync();
         }

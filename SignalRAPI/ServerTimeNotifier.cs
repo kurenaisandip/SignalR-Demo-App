@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace SignalRAPI
 {
-       public class ServerTimeNotifier : BackgroundService
+    public class ServerTimeNotifier : BackgroundService
     {
-        private static readonly TimeSpan Interval = TimeSpan.FromSeconds(5); // Send notifications every 5 seconds
+        private static readonly TimeSpan Interval = TimeSpan.FromSeconds(5);
         private readonly ILogger<ServerTimeNotifier> _logger;
         private readonly IHubContext<NotificationHub, INotificationClient> _hubContext;
-        private static readonly ConcurrentDictionary<string, string> ConnectionUsers = new(); // Maps connectionId to userId
+        private static readonly ConcurrentDictionary<string, string> ClientTypes = new();
 
         public ServerTimeNotifier(ILogger<ServerTimeNotifier> logger, IHubContext<NotificationHub, INotificationClient> hubContext)
         {
@@ -23,31 +23,40 @@ namespace SignalRAPI
 
             while (!stoppingToken.IsCancellationRequested && await timer.WaitForNextTickAsync(stoppingToken))
             {
-                // Send a notification to all registered connections
-                foreach (var connectionId in ConnectionUsers.Keys)
-                {
-                    _logger.LogInformation($"Sending server time to connection: {connectionId}");
+                Console.WriteLine("Sending periodic messages to clients...");
 
-                    // Send a message to the specific client using their connectionId
-                    await _hubContext.Clients.Client(connectionId).ReceiveNotification($"Server time: {DateTimeOffset.Now}");
-                    Console.WriteLine($"Server time sent to connection {connectionId}: {DateTimeOffset.Now}");
+                if (ClientTypes.IsEmpty)
+                {
+                    Console.WriteLine("No clients registered.");
+                    continue;
+                }
+
+                foreach (var (connectionId, clientType) in ClientTypes)
+                {
+                    string message = clientType.ToLower() switch
+                    {
+                        "desktop" => $"Time for desktop: {DateTimeOffset.Now}",
+                        "web" => $"Time for web: {DateTimeOffset.Now}",
+                        _ => "Unknown client type."
+                    };
+
+                    await _hubContext.Clients.Client(connectionId).ReceiveNotification(message);
+                    Console.WriteLine($"Message sent to {clientType} client ({connectionId}): {message}");
                 }
             }
         }
 
-        // Register a user with their connectionId
-        public static void RegisterUser(string userId, string connectionId)
+        public static void RegisterClient(string connectionId, string clientType)
         {
-            ConnectionUsers[connectionId] = userId;
-            Console.WriteLine($"User {userId} registered with connection ID {connectionId}");
+            ClientTypes[connectionId] = clientType;
+            Console.WriteLine($"Client {connectionId} registered as {clientType}");
         }
-
-        // Unregister a user when they disconnect
-        public static void UnregisterUser(string connectionId)
+        
+        public static void UnregisterClient(string connectionId)
         {
-            if (ConnectionUsers.TryRemove(connectionId, out var userId))
+            if (ClientTypes.TryRemove(connectionId, out var clientType))
             {
-                Console.WriteLine($"User {userId} with connection ID {connectionId} unregistered.");
+                Console.WriteLine($"Client {connectionId} ({clientType}) unregistered.");
             }
         }
     }
